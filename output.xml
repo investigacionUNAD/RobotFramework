@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200806 09:04:25.819" rpa="false">
+<suite id="s1" name="TestV" source="C:\Users\ASUS\Desktop\DocumentosEsther\Trabajo\TestRobot\TestV.robot">
+<test id="s1-t1" name="Prue_0186">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:04:26.806" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:04:26.806" endtime="20200806 09:04:33.085"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:04:33.091" endtime="20200806 09:04:33.202"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:04:33.204" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:04:33.203" endtime="20200806 09:04:33.553"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:04:33.555" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:04:33.554" endtime="20200806 09:04:33.820"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:04:33.822" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:04:33.821" endtime="20200806 09:04:35.798"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:04:35.904" endtime="20200806 09:04:36.118"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:04:36.120" endtime="20200806 09:04:38.911"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:04:38.913" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml'.</msg>
+<status status="PASS" starttime="20200806 09:04:38.912" endtime="20200806 09:07:32.937"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:07:37.946" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:07:32.943" endtime="20200806 09:07:37.946"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:07:37.947" endtime="20200806 09:07:38.077"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:07:38.077" endtime="20200806 09:07:42.097"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:04:26.804" endtime="20200806 09:07:42.098" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Prue_0187">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:07:42.112" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:07:42.111" endtime="20200806 09:07:49.565"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:07:49.600" endtime="20200806 09:07:50.261"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:07:50.265" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:07:50.265" endtime="20200806 09:07:51.305"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:07:51.307" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:07:51.306" endtime="20200806 09:07:51.561"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:07:51.562" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:07:51.562" endtime="20200806 09:07:52.817"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:07:52.821" endtime="20200806 09:07:52.987"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:07:52.987" endtime="20200806 09:07:55.784"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:07:55.787" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml'.</msg>
+<status status="PASS" starttime="20200806 09:07:55.786" endtime="20200806 09:11:00.919"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:11:05.927" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:11:00.923" endtime="20200806 09:11:05.927"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:11:05.950" endtime="20200806 09:11:07.213"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:11:07.260" endtime="20200806 09:11:24.553"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:07:42.109" endtime="20200806 09:11:24.555" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Prue_0188">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:11:24.560" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:11:24.559" endtime="20200806 09:11:31.217"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:11:31.218" endtime="20200806 09:11:31.331"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:11:31.332" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:11:31.332" endtime="20200806 09:11:31.513"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:11:31.515" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:11:31.514" endtime="20200806 09:11:31.699"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:11:31.700" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:11:31.700" endtime="20200806 09:11:33.604"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:11:33.604" endtime="20200806 09:11:33.932"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:11:33.934" endtime="20200806 09:11:36.609"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:11:36.612" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml'.</msg>
+<status status="PASS" starttime="20200806 09:11:36.610" endtime="20200806 09:12:28.180"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:12:33.184" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:12:28.183" endtime="20200806 09:12:33.184"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:12:33.413" endtime="20200806 09:12:33.628"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:12:33.638" endtime="20200806 09:12:36.830"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:11:24.557" endtime="20200806 09:12:36.831" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Prue_0189">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:12:36.834" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:12:36.834" endtime="20200806 09:12:42.981"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:12:42.982" endtime="20200806 09:12:43.097"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:12:43.098" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:12:43.097" endtime="20200806 09:12:43.359"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:12:43.362" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:12:43.361" endtime="20200806 09:12:43.629"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:12:43.630" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:12:43.630" endtime="20200806 09:12:45.482"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:12:45.483" endtime="20200806 09:12:45.712"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:12:45.713" endtime="20200806 09:12:49.380"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:12:49.382" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/faces/graficaBI2.xhtml'.</msg>
+<status status="PASS" starttime="20200806 09:12:49.381" endtime="20200806 09:15:34.601"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:15:39.603" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:15:34.601" endtime="20200806 09:15:39.603"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:15:39.603" endtime="20200806 09:15:39.654"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:15:39.654" endtime="20200806 09:15:42.099"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:12:36.833" endtime="20200806 09:15:42.099" critical="yes"></status>
+</test>
+<test id="s1-t5" name="Prue_0190">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:15:42.103" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:15:42.103" endtime="20200806 09:15:47.991"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:15:47.995" endtime="20200806 09:15:48.048"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:15:48.053" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:15:48.048" endtime="20200806 09:15:48.353"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:15:48.357" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:15:48.357" endtime="20200806 09:15:48.596"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:15:48.596" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:15:48.596" endtime="20200806 09:15:51.468"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:15:51.468" endtime="20200806 09:15:51.865"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44_stack"]/li[5]/a/img</arg>
+</arguments>
+<msg timestamp="20200806 09:15:51.867" level="INFO">Clicking element 'xpath=//*[@id="j_idt42:j_idt44_stack"]/li[5]/a/img'.</msg>
+<status status="PASS" starttime="20200806 09:15:51.867" endtime="20200806 09:18:15.925"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:18:20.928" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:18:15.925" endtime="20200806 09:18:20.928"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:18:20.928" endtime="20200806 09:18:20.993"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:18:20.997" endtime="20200806 09:18:25.770"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:15:42.103" endtime="20200806 09:18:25.770" critical="yes"></status>
+</test>
+<test id="s1-t6" name="Prue_0191">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:18:25.770" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:18:25.770" endtime="20200806 09:18:30.676"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:18:30.680" endtime="20200806 09:18:30.844"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:18:30.848" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:18:30.844" endtime="20200806 09:18:31.212"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:18:31.216" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:18:31.216" endtime="20200806 09:18:31.596"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:18:31.596" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:18:31.596" endtime="20200806 09:18:33.625"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:18:33.641" endtime="20200806 09:18:33.978"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44_stack"]/li[4]/a/img</arg>
+</arguments>
+<msg timestamp="20200806 09:18:33.978" level="INFO">Clicking element 'xpath=//*[@id="j_idt42:j_idt44_stack"]/li[4]/a/img'.</msg>
+<status status="PASS" starttime="20200806 09:18:33.978" endtime="20200806 09:22:43.849"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:22:48.864" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:22:43.856" endtime="20200806 09:22:48.864"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:22:48.884" endtime="20200806 09:22:48.992"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:22:48.996" endtime="20200806 09:22:52.291"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:18:25.770" endtime="20200806 09:22:52.386" critical="yes"></status>
+</test>
+<test id="s1-t7" name="Prue_0192">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:22:52.410" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:22:52.402" endtime="20200806 09:22:58.644"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:22:58.644" endtime="20200806 09:22:58.832"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:22:58.836" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:22:58.836" endtime="20200806 09:22:59.176"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:22:59.188" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:22:59.184" endtime="20200806 09:22:59.508"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:22:59.520" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:22:59.516" endtime="20200806 09:23:02.713"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:23:02.713" endtime="20200806 09:23:03.077"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44_stack"]/li[3]/a/img</arg>
+</arguments>
+<msg timestamp="20200806 09:23:03.077" level="INFO">Clicking element 'xpath=//*[@id="j_idt42:j_idt44_stack"]/li[3]/a/img'.</msg>
+<status status="PASS" starttime="20200806 09:23:03.077" endtime="20200806 09:23:12.090"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:23:17.154" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:23:12.126" endtime="20200806 09:23:17.154"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:23:17.190" endtime="20200806 09:23:17.242"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:23:17.246" endtime="20200806 09:23:20.215"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:22:52.386" endtime="20200806 09:23:20.215" critical="yes"></status>
+</test>
+<test id="s1-t8" name="Prue_0193">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.ela.unad.edu.co:8080/PublicaIndica/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200806 09:23:20.215" level="INFO">Opening browser 'chrome' to base url 'http://www.ela.unad.edu.co:8080/PublicaIndica/'.</msg>
+<status status="PASS" starttime="20200806 09:23:20.215" endtime="20200806 09:23:26.433"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt3"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:23:26.445" endtime="20200806 09:23:26.729"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:codigo"]</arg>
+<arg>79465403</arg>
+</arguments>
+<msg timestamp="20200806 09:23:26.741" level="INFO">Typing text '79465403' into text field 'xpath=//*[@id="form:codigo"]'.</msg>
+<status status="PASS" starttime="20200806 09:23:26.737" endtime="20200806 09:23:27.177"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:clave"]</arg>
+<arg>P4$$w0rd2020</arg>
+</arguments>
+<msg timestamp="20200806 09:23:27.185" level="INFO">Typing text 'P4$$w0rd2020' into text field 'xpath=//*[@id="form:clave"]'.</msg>
+<status status="PASS" starttime="20200806 09:23:27.181" endtime="20200806 09:23:27.493"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="form:j_idt8"]/span[2]</arg>
+</arguments>
+<msg timestamp="20200806 09:23:27.497" level="INFO">Clicking element 'xpath=//*[@id="form:j_idt8"]/span[2]'.</msg>
+<status status="PASS" starttime="20200806 09:23:27.497" endtime="20200806 09:23:31.145"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44"]/img</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:23:31.339" endtime="20200806 09:23:32.375"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt42:j_idt44_stack"]/li[2]/a/img</arg>
+</arguments>
+<msg timestamp="20200806 09:23:32.415" level="INFO">Clicking element 'xpath=//*[@id="j_idt42:j_idt44_stack"]/li[2]/a/img'.</msg>
+<status status="PASS" starttime="20200806 09:23:32.415" endtime="20200806 09:26:07.486"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200806 09:26:12.491" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200806 09:26:07.486" endtime="20200806 09:26:12.491"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="j_idt11:j_idt12"]</arg>
+</arguments>
+<status status="PASS" starttime="20200806 09:26:12.491" endtime="20200806 09:26:12.665"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200806 09:26:12.665" endtime="20200806 09:26:15.263"></status>
+</kw>
+<status status="PASS" starttime="20200806 09:23:20.215" endtime="20200806 09:26:15.263" critical="yes"></status>
+</test>
+<doc>Graficos Modelos</doc>
+<status status="PASS" starttime="20200806 09:04:25.826" endtime="20200806 09:26:15.271"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="8" fail="0">Critical Tests</stat>
+<stat pass="8" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="8" fail="0" id="s1" name="TestV">TestV</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
